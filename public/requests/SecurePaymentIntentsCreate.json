@@ -1,0 +1,28 @@
+{
+  "saveForFuture": true,
+  "title": "Inv-0321-1",
+  "AccountNumber": "ACH-001",
+  "shortDescription": "short_Description",
+  "paymentDescription": "payment_Description",
+  "amount": 1000.00,
+  "invoiceNumber": "1111",
+  "expiresIn": "30000000",
+  "enablePremiumFinance": true,
+  "additionalDetailsPreference": "NoAdditionalDetails",
+  "splits": [
+        {
+            "accountType": "checking",
+            "amount": 100,
+            "chargeIndicator": false,
+            "reference": "test",
+            "virtualAccount": "FMKTest1"
+        }
+  ],
+  "intent": {
+    "paymentTypes": [
+      "CreditCard",
+      "DebitCard",
+      "ACH"
+    ]
+  }
+}

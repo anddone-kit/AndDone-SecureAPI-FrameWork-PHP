@@ -1,0 +1,46 @@
+{
+    "merchantId": "MERCHANT_ID",
+    "merchant": {
+        "contactName": "John Doe",
+        "contactPhone": "0123456789"
+    },
+   "insured": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "mobilePhoneNumber": null,
+        "faxNumber": null,
+        "emailAddress": "test@email.com",
+        "isCancellationWarningViaTextEnabled": false,
+        "address": {
+            "Address1": "1055",
+            "Address2": "Broadway Blvd",
+            "City": "Anchorage",
+            "State": "AK",
+            "Zip": "64105",
+            "PhoneNumber": null
+        }
+    },
+    "program": {
+        "programId": 82262,
+        "loanType": "Personal"
+    },
+    "policies": [
+        {
+            "premium": 20000,
+            "effectiveDate": "04-01-2026 00:00:00",
+            "expirationDate": "04-01-2027 00:00:00",
+            "coverageType": "FIRE",
+            "cancelDays": "Item20",
+            "additionalFees": 0,
+            "policyNumber": "21128675311",
+            "carrier": {
+                "name": "OCCIDENTAL FIRE & CASUALTY CO OF NO",
+                "bestNumber": 5555551234,
+                "uniqueId": 23248
+            }
+        }
+    ]
+}
+
+
+

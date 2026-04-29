@@ -1,0 +1,10 @@
+{
+  "accountNumber": "1234567890",
+  "routingNumber": "121000358",
+  "accountHolderName": "John Doe",
+  "statementDisplayName": "Johns Account",
+  "bankAccountEntity": {
+    "id": 1,
+    "type": "Vendor"
+  }
+}

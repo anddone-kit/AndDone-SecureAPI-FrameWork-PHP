@@ -1,0 +1,8 @@
+{
+  "merchantId": "MERCHANT_ID",
+  "batchId": "BATCH_ID",
+  "voidReason": "Duplicate Payments",
+  "transactionIds": [
+    "TRANSACTION_ID"
+  ]
+}

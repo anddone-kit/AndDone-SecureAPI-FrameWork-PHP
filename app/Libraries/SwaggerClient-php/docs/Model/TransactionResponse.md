@@ -1,0 +1,45 @@
+# # TransactionResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**transactionId** | **string** |  | [optional]
+**transactionCode** | **string** |  | [optional]
+**transactionOrigin** | **float** |  | [optional]
+**billingContact** | [**\OpenAPI\Client\Model\TransactionResponseBillingContact**](TransactionResponseBillingContact.md) |  | [optional]
+**shippingContact** | [**\OpenAPI\Client\Model\TransactionResponseBillingContact**](TransactionResponseBillingContact.md) |  | [optional]
+**referenceTransactionId** | **string** |  | [optional]
+**transactionDate** | **string** |  | [optional]
+**merchantId** | **string** |  | [optional]
+**ipAddress** | **string** |  | [optional]
+**operationType** | **float** |  | [optional]
+**channelType** | **float** |  | [optional]
+**isDebit** | **bool** |  | [optional]
+**tenderInfo** | [**\OpenAPI\Client\Model\TransactionResponseTenderInfo**](TransactionResponseTenderInfo.md) |  | [optional]
+**referenceCustomerId** | **string** |  | [optional]
+**customerAccountId** | **string** |  | [optional]
+**invoiceNo** | **string** |  | [optional]
+**poNo** | **string** |  | [optional]
+**referenceNo** | **string** |  | [optional]
+**remarks** | **string** |  | [optional]
+**recurringType** | **float** |  | [optional]
+**recurringId** | **string** |  | [optional]
+**installmentNumber** | **float** |  | [optional]
+**installmentCount** | **float** |  | [optional]
+**allowDuplicates** | **bool** |  | [optional]
+**verificationEnabled** | **bool** |  | [optional]
+**sentSuccessNotification** | **bool** |  | [optional]
+**sentFailedNotification** | **bool** |  | [optional]
+**trainingMode** | **bool** |  | [optional]
+**terminalId** | **string** |  | [optional]
+**isOffline** | **bool** |  | [optional]
+**transactionStatus** | **float** |  | [optional]
+**transactionResult** | [**\OpenAPI\Client\Model\TransactionResponseTransactionResult**](TransactionResponseTransactionResult.md) |  | [optional]
+**level** | **float** |  | [optional]
+**partnerId** | **string** |  | [optional]
+**orderId** | **string** |  | [optional]
+**invoiceId** | **string** |  | [optional]
+**paymentLinkId** | **string** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,0 +1,42 @@
+{
+    "quote": {
+        "merchantReference": "CRENDORSE-1209-2",
+        "accountNumber": "251017",
+        "agreementId": 8518295,
+        "policies": [
+            {
+                "policyId": 12529284,
+                "premium": 40000.0,
+                "effectiveDate": "2025-12-01T05:39:43.181Z",
+                "expirationDate": "2026-12-01T05:39:43.181Z",
+                "coverage": "BOP",
+                "company": {
+                    "bestNumber": "",
+                    "UniqueId": "1734",
+                    "Name": "Bankers Standard Insurance Co",
+                    "careOf": "string",
+                    "address1": "string",
+                    "address2": "string",
+                    "city": "string",
+                    "state": "string",
+                    "zip": "string",
+                    "phone": "string"
+                }
+            }
+        ],
+        "insured": {
+            "AgentCustomerNumber": "Suyash",
+            "Email": "dylan.smith@fmkagency.com",
+            "CareOf": "",
+            "Address": {
+                "Name": "Sam",
+                "Address1": "1055 Broadway",
+                "Address2": "",
+                "City": "Kansas City",
+                "State": "MO",
+                "Zip": "64105",
+                "Phone": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+  "merchantId": "MERCHANT_ID",
+  "title": "TL-0308-5",
+  "expireIn": "90",
+  "expireInUnit": 1,
+  "intent": {
+    "paymentTypes": [
+      "ACH",
+      "CreditCard",
+      "DebitCard"
+    ]
+  },
+  "customers": [
+    {
+      "firstName": "Bill",
+      "lastName": "Billinglsly",
+      "email": "bill.b@aurionpro.com",
+      "phone": "4842989304",
+      "phoneCountryCode": "+1",
+      "address": {
+        "AddressLine1": "4283 Sugar Camp Road",
+        "AddressLine2": "Owatonna",
+        "City": "Owatonna",
+        "State": "MN",
+        "Country": 0,
+        "PostalCode": "55060",
+        "TimeZone": "CDT"
+      }
+    }
+  ]
+}

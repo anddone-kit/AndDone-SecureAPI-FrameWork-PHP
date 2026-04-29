@@ -1,0 +1,31 @@
+{
+  "quoteKey": "34271547",
+  "isPayInFull": true,
+  "title": "EP-0308-2",
+  "paymentDescription": "FirstPayment",
+  "expireIn": "300",
+  "expireInUnit": "2",
+  "customers": null,
+  "callbackParameters": {
+    "callbackApiUrl": "htttp://yahoo.com",
+    "callbackMessage": "this is test message"
+  },
+  "referenceDataList": [
+    {
+      "referenceType": "PolicyNumber",
+      "referenceNumber": "pol123",
+      "referenceKey": null
+    }
+  ],
+  "settings": {
+    "selectedCustomerFields": "First Name,Last Name,Email,Phone",
+    "additionalDetailsPreference": "1",
+    "intent": {
+      "paymentTypes": [
+        "ACH",
+        "CreditCard",
+        "DebitCard"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "refundAmount": 6060.00,
+  "transactionId": "d68e1b72-54ba-4c31-a9e7-fb1cfe66172b",
+  "refundDetail": "Refund down payment amount.",
+  "refundReason": "Incorrect amount charged.",
+  "refundType": 1 
+}

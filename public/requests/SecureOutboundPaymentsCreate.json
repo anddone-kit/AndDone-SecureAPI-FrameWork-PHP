@@ -1,0 +1,66 @@
+{
+  "vendorId": "ZdOj3G8Q",
+  "paymentMethod": "Check",
+  "amount": 99.99,
+  "bankDetail": {
+    "accountNumber": "123456780",
+    "routingNumber": "121000358"
+  },
+  "data": {
+    "checkNumber": 1099,
+    "memo": "Self transfer",
+    "checkDate": "03-18-2026",
+    "remittanceData": {
+      "headings": [
+        {
+          "name": "Item1",
+          "type": "Date"
+        },
+        {
+          "name": "Amount1",
+          "type": "decimal"
+        },
+        {
+          "name": "desc",
+          "type": "text"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "name": "Item1",
+            "value": "04-24-2024",
+            "type": "Date"
+          },
+          {
+            "name": "Amount1",
+            "value": "100.12",
+            "type": "decimal"
+          },
+          {
+            "name": "desc",
+            "value": "100.12",
+            "type": "text"
+          }
+        ],
+        [
+          {
+            "name": "Item1",
+            "value": "04-27-2024",
+            "type": "Date"
+          },
+          {
+            "name": "Amount1",
+            "value": "500",
+            "type": "decimal"
+          },
+          {
+            "name": "desc",
+            "value": "500",
+            "type": "text"
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "tokenLinkId": "Dv4kRyyd",
+  "expireIn": "4",
+  "expireInUnit": 2,
+  "suppressTechnologyFee": true,
+  "intent": {
+    "paymentTypes": [
+      "ACH",
+      "CreditCard",
+      "DebitCard"
+    ]
+  }
+}
