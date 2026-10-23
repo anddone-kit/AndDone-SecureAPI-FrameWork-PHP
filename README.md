@@ -24,6 +24,7 @@ Follow the steps in the next section or you can find full documenation for the I
 ```sh
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://php.new/install/windows/8.4'))
 ```
+3. Ensure your interpreter is patched to version 8.4.27 or later: https://php.watch/versions/8.4/releases/8.4.27
 
 
 ## Installing the API Sample Application
